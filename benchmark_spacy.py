@@ -29,10 +29,10 @@ def tokenize(fpath):
 if __name__ == "__main__":
     for f in glob.glob(CORPUS_PATH + "/*.txt"):
         tokenize(f)
-    print("{0:d} files, {0:.2f}ms total, {0:.2f}ms average, {0:.2f}ms min, {0:.2f}ms max".format(
+    print("{:d} files, {:.2f}ms total, {:.2f}ms average, {:.2f}ms min, {:.2f}ms max".format(
         len(tokenize.process_time),
-        mean(tokenize.process_time),
         sum(tokenize.process_time),
+        mean(tokenize.process_time),
         min(tokenize.process_time),
         max(tokenize.process_time)
         ))
