@@ -4,8 +4,11 @@
 
 Quick and dirty scripts to measure the performance of spaCy
 
-## Run the scripts
+## Prepare the data
 
 1. `$ download_corpus.sh`
 2. `$ python3 transform_corpus.py`
-3. `$ python3 benchmark_spacy.py`
+
+## Run the benchmark
+
+`$ python3 benchmark_spacy.py`
