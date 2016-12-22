@@ -1,6 +1,7 @@
 # SpaCy tokenizer benchmark
 
 ## Introduction
+
 Quick and dirty scripts to measure the performance of spaCy
 
 ## Run the scripts
